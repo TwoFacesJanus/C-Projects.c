@@ -23,6 +23,7 @@ int main(int argc, char* argv[])
     int n = sizeof(array) / sizeof(array[0]);
     int x = 3;
     int result = BinarySearch(array, 0, n - 1, x);
+    
     (result == -1)
         ? printf("Not Found!")
         : printf("Element is present at index %d", result);
